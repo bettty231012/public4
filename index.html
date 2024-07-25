@@ -3,7 +3,7 @@
 <head>
   <title>Google Sheets Search Tool</title>
   <script>
-    async function search() {
+    async function search() {https://github.com/bettty231012/public4/blob/main/index.html
       const query = document.getElementById('query').value;
       const response = await fetch(`https://script.google.com/macros/s/AKfycbw8VuUqBaBetGAY8HkvXBRM7VpuotjUdvIaNot-hIanfOQPdIO5cfwJs87mdfDydbK-hA/exec?query=${query}`);
       const results = await response.json();
